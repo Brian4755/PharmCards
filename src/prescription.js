@@ -220,7 +220,7 @@ let prescriptionData = [
     function: 'Hormone estrogen. It is used to treat symptoms of menopause.'
   },
   {
-    brand: 'Ethinyl Estradiol/Norethindrone',
+    brand: 'Norethindrone',
     generic: 'Junel',
     function: 'Combination hormone medication used to prevent pregnancy, and regulate menstrual periods.'
   },
