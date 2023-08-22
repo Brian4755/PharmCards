@@ -1,12 +1,7 @@
 import { useState } from "react";
 import { prescriptionData } from "./prescription";
 
-const Flashcard = () => {
-  const [prescription, setPrescription] = useState(0)
-
-  function handleClick() {
-    setPrescription(prescription + 1)
-  }
+const Flashcard = ({prescription}) => {
 
   return ( 
     <div className="flashcard-data">
@@ -19,7 +14,6 @@ const Flashcard = () => {
       <div>
         {prescriptionData[prescription].function}
       </div>
-      <button onClick={handleClick}>Click This</button>
     </div>
    );
 }
