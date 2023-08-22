@@ -10,8 +10,6 @@ const Flashcard = ({prescription}) => {
       </div>
       <div>
         {prescriptionData[prescription].generic}
-      </div>
-      <div>
         {prescriptionData[prescription].function}
       </div>
     </div>

@@ -1,4 +1,28 @@
+body, html {
+  height: 100vh;
+  width: 100vw;
+}
+
 .flashcard-data {
+  margin-top: 10%;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  width: 500px;
+  height: 250px;
+  border-radius: 2%;
+  box-shadow: 1px 1px 6px 3px rgba(11, 11, 26, 0.2);
+  padding: 5%;
+  font-size: 25px;
+}
+
+.termsPage {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  height: 20px;
+  align-self: center;
+  margin-left: 2%;
 }

@@ -9,10 +9,10 @@ const TermsPage = () => {
   }
 
   return ( 
-    <>
-    <Flashcard prescription={prescription}/>
-    <button onClick={handleClick}>Next Term</button>
-    </>
+    <div className="termsPage">
+      <Flashcard prescription={prescription}/>
+      <button onClick={handleClick}>Next Term</button>
+    </div>
    );
 }
  
