@@ -26,3 +26,11 @@ button {
   align-self: center;
   margin-left: 2%;
 }
+
+.cardDetails {
+  margin-top: 25px;
+}
+
+h1 {
+  font-size: 25px;
+}

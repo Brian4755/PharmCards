@@ -5,12 +5,13 @@ const Flashcard = ({prescription}) => {
 
   return ( 
     <div className="flashcard-data">
-      <div>
-        {prescriptionData[prescription].brand}
-      </div>
-      <div>
-        {prescriptionData[prescription].generic}
-        {prescriptionData[prescription].function}
+      <h1>
+        Brand Name: {prescriptionData[prescription].brand}
+      </h1>
+      <div className="cardDetails">
+        <b>Generic Name:</b> {prescriptionData[prescription].generic}
+        <br/>
+        <b>Function:</b> {prescriptionData[prescription].function}
       </div>
     </div>
    );
